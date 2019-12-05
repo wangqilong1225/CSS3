@@ -1,0 +1,7 @@
+.ceng{
+    width: 260px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px auto;
+    background-image: linear-gradient(65deg,orange 30%,green 60%,red 100%);
+}
