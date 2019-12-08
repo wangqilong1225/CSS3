@@ -1,0 +1,21 @@
+.rect{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    animation-name: mymove;
+    animation-duration:  5s;    /*5s一次*/
+    animation-timing-function:linear;   /*匀速*/
+    animation-delay: 1s;        /*延迟*/
+    animation-iteration-count:infinite; /*循环*/
+    animation-direction: normal;    /*顺时针*/
+}
+
+/*动画*/
+@keyframes mymove{
+    0% {top:0;left:10px;background-color: red;}    /*开始的位置*/
+    25%{top:0;left:80%;background-color: blue;}   
+    50%{top:80%;left:80%;background-color: violet;}
+    75%{top:80%;left:10px;background-color: yellow;} 
+    100% {top:0;left:10px;background-color: red;}  /*结束的位置*/
+}
