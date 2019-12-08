@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字排版</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .demo{
+            margin: 30px;
+            width: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .demo1{
+        margin: 30px;
+        width: 100px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space: nowrap;
+        }
+
+
+        .demo1:hover{
+            text-overflow:inherit;
+            overflow:visible;
+        }
+
+        .demo2{
+            margin: 30px;
+            width: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-overflow:ellipsis;
+            overflow:hidden;
+            white-space: nowrap;
+        }
+        
+        .demo2:hover{
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+        素胚勾勒出青花笔锋浓转淡
+        瓶身描绘的牡丹一如你初妆
+        冉冉檀香透过窗心事我了然
+        宣纸上走笔至此搁一半
+        釉色渲染仕女图韵味被私藏
+        而你嫣然的一笑如含苞待放
+        你的美一缕飘散
+    </div>
+
+    <div class="demo1">
+        素胚勾勒出青花笔锋浓转淡
+        瓶身描绘的牡丹一如你初妆
+        冉冉檀香透过窗心事我了然
+        宣纸上走笔至此搁一半
+        釉色渲染仕女图韵味被私藏
+        而你嫣然的一笑如含苞待放
+        你的美一缕飘散
+    </div>
+
+    <div class="demo2">
+        素胚勾勒出青花笔锋浓转淡
+        瓶身描绘的牡丹一如你初妆
+        冉冉檀香透过窗心事我了然
+        宣纸上走笔至此搁一半
+        釉色渲染仕女图韵味被私藏
+        而你嫣然的一笑如含苞待放
+        你的美一缕飘散
+    </div>
+</body>
+
+</html>

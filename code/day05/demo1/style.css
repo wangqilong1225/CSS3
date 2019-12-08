@@ -1,0 +1,35 @@
+.demo{
+    margin: 30px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.demo1{
+    margin: 30px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.demo1:hover{
+    text-overflow:inherit;
+    overflow:visible;
+}
+
+.demo2{
+    margin: 30px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.demo2:hover{
+    width: 500px;  
+}
